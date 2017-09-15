@@ -12,6 +12,28 @@ public class Documentacao implements java.io.Serializable
    private java.lang.String nomeDoProjeto;
    private java.lang.String breveDescricao;
 
+   private java.lang.String linhaDeInvestimentos;
+
+   private java.lang.String estimativaTotal;
+
+   private java.lang.String statusDoProjeto;
+
+   private java.lang.String equipeExecucao;
+
+   private java.lang.String equipePlanejamentoControle;
+
+   private java.lang.String equipeStakeholders;
+
+   private java.lang.String detalhamentoEscopo;
+
+   private java.lang.String quantitativo;
+
+   private java.lang.String itensLiberar;
+
+   private java.lang.String previsaoEscopoFinal;
+
+   private java.lang.String observacoes;
+
    public Documentacao()
    {
    }
@@ -36,11 +58,140 @@ public class Documentacao implements java.io.Serializable
       this.breveDescricao = breveDescricao;
    }
 
+   public java.lang.String getLinhaDeInvestimentos()
+   {
+      return this.linhaDeInvestimentos;
+   }
+
+   public void setLinhaDeInvestimentos(java.lang.String linhaDeInvestimentos)
+   {
+      this.linhaDeInvestimentos = linhaDeInvestimentos;
+   }
+
+   public java.lang.String getEstimativaTotal()
+   {
+      return this.estimativaTotal;
+   }
+
+   public void setEstimativaTotal(java.lang.String estimativaTotal)
+   {
+      this.estimativaTotal = estimativaTotal;
+   }
+
+   public java.lang.String getStatusDoProjeto()
+   {
+      return this.statusDoProjeto;
+   }
+
+   public void setStatusDoProjeto(java.lang.String statusDoProjeto)
+   {
+      this.statusDoProjeto = statusDoProjeto;
+   }
+
+   public java.lang.String getEquipeExecucao()
+   {
+      return this.equipeExecucao;
+   }
+
+   public void setEquipeExecucao(java.lang.String equipeExecucao)
+   {
+      this.equipeExecucao = equipeExecucao;
+   }
+
+   public java.lang.String getEquipePlanejamentoControle()
+   {
+      return this.equipePlanejamentoControle;
+   }
+
+   public void setEquipePlanejamentoControle(
+         java.lang.String equipePlanejamentoControle)
+   {
+      this.equipePlanejamentoControle = equipePlanejamentoControle;
+   }
+
+   public java.lang.String getEquipeStakeholders()
+   {
+      return this.equipeStakeholders;
+   }
+
+   public void setEquipeStakeholders(java.lang.String equipeStakeholders)
+   {
+      this.equipeStakeholders = equipeStakeholders;
+   }
+
+   public java.lang.String getDetalhamentoEscopo()
+   {
+      return this.detalhamentoEscopo;
+   }
+
+   public void setDetalhamentoEscopo(java.lang.String detalhamentoEscopo)
+   {
+      this.detalhamentoEscopo = detalhamentoEscopo;
+   }
+
+   public java.lang.String getQuantitativo()
+   {
+      return this.quantitativo;
+   }
+
+   public void setQuantitativo(java.lang.String quantitativo)
+   {
+      this.quantitativo = quantitativo;
+   }
+
+   public java.lang.String getItensLiberar()
+   {
+      return this.itensLiberar;
+   }
+
+   public void setItensLiberar(java.lang.String itensLiberar)
+   {
+      this.itensLiberar = itensLiberar;
+   }
+
+   public java.lang.String getPrevisaoEscopoFinal()
+   {
+      return this.previsaoEscopoFinal;
+   }
+
+   public void setPrevisaoEscopoFinal(java.lang.String previsaoEscopoFinal)
+   {
+      this.previsaoEscopoFinal = previsaoEscopoFinal;
+   }
+
+   public java.lang.String getObservacoes()
+   {
+      return this.observacoes;
+   }
+
+   public void setObservacoes(java.lang.String observacoes)
+   {
+      this.observacoes = observacoes;
+   }
+
    public Documentacao(java.lang.String nomeDoProjeto,
-         java.lang.String breveDescricao)
+         java.lang.String breveDescricao, java.lang.String linhaDeInvestimentos,
+         java.lang.String estimativaTotal, java.lang.String statusDoProjeto,
+         java.lang.String equipeExecucao,
+         java.lang.String equipePlanejamentoControle,
+         java.lang.String equipeStakeholders,
+         java.lang.String detalhamentoEscopo, java.lang.String quantitativo,
+         java.lang.String itensLiberar, java.lang.String previsaoEscopoFinal,
+         java.lang.String observacoes)
    {
       this.nomeDoProjeto = nomeDoProjeto;
       this.breveDescricao = breveDescricao;
+      this.linhaDeInvestimentos = linhaDeInvestimentos;
+      this.estimativaTotal = estimativaTotal;
+      this.statusDoProjeto = statusDoProjeto;
+      this.equipeExecucao = equipeExecucao;
+      this.equipePlanejamentoControle = equipePlanejamentoControle;
+      this.equipeStakeholders = equipeStakeholders;
+      this.detalhamentoEscopo = detalhamentoEscopo;
+      this.quantitativo = quantitativo;
+      this.itensLiberar = itensLiberar;
+      this.previsaoEscopoFinal = previsaoEscopoFinal;
+      this.observacoes = observacoes;
    }
 
 }
