@@ -1,0 +1,119 @@
+
+<form id="763006385">
+<property name="name" value="cronograma-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="12" name="documentacao_quantitativo" type="InputText" id="404064821">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;quantitativo (documentacao)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="documentacao/quantitativo"/>
+<property name="outputBinding" value="documentacao/quantitativo"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="8" name="documentacao_linhaDeInvestimentos" type="InputText" id="1788240759">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;linhaDeInvestimentos (documentacao)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="documentacao/linhaDeInvestimentos"/>
+<property name="outputBinding" value="documentacao/linhaDeInvestimentos"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="10" name="documentacao_observacoes" type="InputText" id="744461470">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;observacoes (documentacao)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="documentacao/observacoes"/>
+<property name="outputBinding" value="documentacao/observacoes"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="9" name="documentacao_nomeDoProjeto" type="InputText" id="1159053943">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;nomeDoProjeto (documentacao)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="documentacao/nomeDoProjeto"/>
+<property name="outputBinding" value="documentacao/nomeDoProjeto"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="documentacao_breveDescricao" type="InputText" id="491446786">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;breveDescricao (documentacao)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="documentacao/breveDescricao"/>
+<property name="outputBinding" value="documentacao/breveDescricao"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="documentacao_equipeStakeholders" type="InputText" id="1071637078">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;equipeStakeholders (documentacao)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="documentacao/equipeStakeholders"/>
+<property name="outputBinding" value="documentacao/equipeStakeholders"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="6" name="documentacao_estimativaTotal" type="InputText" id="148305983">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;estimativaTotal (documentacao)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="documentacao/estimativaTotal"/>
+<property name="outputBinding" value="documentacao/estimativaTotal"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="documentacao_equipeExecucao" type="InputText" id="78792099">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;equipeExecucao (documentacao)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="documentacao/equipeExecucao"/>
+<property name="outputBinding" value="documentacao/equipeExecucao"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="documentacao_detalhamentoEscopo" type="InputText" id="520909695">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;detalhamentoEscopo (documentacao)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="documentacao/detalhamentoEscopo"/>
+<property name="outputBinding" value="documentacao/detalhamentoEscopo"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="documentacao_equipePlanejamentoControle" type="InputText" id="385584461">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;equipePlanejamentoControle (documentacao)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="documentacao/equipePlanejamentoControle"/>
+<property name="outputBinding" value="documentacao/equipePlanejamentoControle"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name="arquivoCronograma" type="Document" id="495932757">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;arquivoCronograma (arquivoCronograma)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="arquivoCronograma"/>
+<property name="fieldClass" value="org.jbpm.document.Document"/>
+</field>
+<field position="7" name="documentacao_itensLiberar" type="InputText" id="1861372201">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;itensLiberar (documentacao)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="documentacao/itensLiberar"/>
+<property name="outputBinding" value="documentacao/itensLiberar"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="11" name="documentacao_previsaoEscopoFinal" type="InputText" id="311976836">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;previsaoEscopoFinal (documentacao)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="documentacao/previsaoEscopoFinal"/>
+<property name="outputBinding" value="documentacao/previsaoEscopoFinal"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="13" name="documentacao_statusDoProjeto" type="InputText" id="983197702">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;statusDoProjeto (documentacao)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="documentacao/statusDoProjeto"/>
+<property name="outputBinding" value="documentacao/statusDoProjeto"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#B29FE4" type="basicType" outId="arquivoCronograma" value="org.jbpm.document.Document" id="arquivoCronograma"/>
+<dataHolder inputId="documentacao" name="#E9E371" type="dataModelerEntry" outId="documentacao" value="com.redhat.gerenciamento.Documentacao" id="documentacao"/>
+</form>
