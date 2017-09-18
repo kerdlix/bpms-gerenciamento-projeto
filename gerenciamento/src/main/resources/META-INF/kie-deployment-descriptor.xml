@@ -5,7 +5,13 @@
     <audit-mode>JPA</audit-mode>
     <persistence-mode>JPA</persistence-mode>
     <runtime-strategy>SINGLETON</runtime-strategy>
-    <marshalling-strategies/>
+    <marshalling-strategies>
+        <marshalling-strategy>
+            <resolver>reflection</resolver>
+            <identifier>org.jbpm.document.marshalling.DocumentMarshallingStrategy</identifier>
+            <parameters/>
+        </marshalling-strategy>
+    </marshalling-strategies>
     <event-listeners/>
     <task-event-listeners/>
     <globals/>
@@ -38,6 +44,8 @@
     <environment-entries/>
     <configurations/>
     <required-roles/>
-    <remoteable-classes/>
+    <remoteable-classes>
+        <remoteable-class>org.jbpm.document.service.impl.DocumentImpl</remoteable-class>
+    </remoteable-classes>
     <limit-serialization-classes>true</limit-serialization-classes>
 </deployment-descriptor>
