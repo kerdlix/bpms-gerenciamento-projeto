@@ -1,2 +1,39 @@
 package com.redhat.gerenciamento;
 
+rule "CalcularDestinatario1"
+
+	no-loop 
+	ruleflow-group "email"
+	lock-on-active 
+    
+    when
+        //conditions
+        $w : Destinatario(destinatarioEmail == null, chamadaWebservice == false)
+    then
+        //actions
+        System.out.println("Inicio da regra: " + kcontext.getRule().getName());
+        modify($w) {
+            setDestinatarioEmail("negativo@redhat.com");
+        };
+        System.out.println("Regra finalizada: " + kcontext.getRule().getName());
+
+end
+
+rule "CalcularDestinatario2"
+
+	no-loop 
+	ruleflow-group "email"
+	lock-on-active 
+    
+    when
+        //conditions
+        $w : Destinatario(destinatarioEmail == null, chamadaWebservice == true)
+    then
+        //actions
+        System.out.println("Inicio da regra: " + kcontext.getRule().getName());
+        modify($w) {
+            setDestinatarioEmail("positivo@redhat.com");
+        };
+        System.out.println("Regra finalizada: " + kcontext.getRule().getName());
+
+end
